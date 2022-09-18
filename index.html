@@ -1,0 +1,375 @@
+
+<html lang="en" style="scroll-padding-top: 76px;"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!--meta name="description" content="Project documentation with Markdown.">
+        <meta name="author" content="MkDocs Team">
+        <link rel="canonical" href="https://www.mkdocs.org/">
+        <link rel="shortcut icon" href="https://www.mkdocs.org/img/favicon.ico"-->
+
+        <title>IntroStatsApps DevPage</title>
+        <link href="./stat/bootstrap.min.css" rel="stylesheet">
+        <link href="./stat/font-awesome.min.css" rel="stylesheet">
+        <link href="./stat/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="./stat/github.min.css">
+        <link href="./stat/extra.css" rel="stylesheet">
+
+        <script async="" src="./stat/analytics.js.download"></script><script src="./stat/jquery-1.10.2.min.js.download" defer=""></script>
+        <script src="./stat/bootstrap.min.js.download" defer=""></script>
+        <script src="./stat/highlight.min.js.download"></script>
+        <script src="./stat/yaml.min.js.download"></script>
+        <script src="./stat/django.min.js.download"></script>
+        <script>hljs.initHighlightingOnLoad();</script>
+
+        <style>
+            div.a {
+              line-height: 90%;
+            }
+
+            .section {
+               background-color: white;
+               border: 0px solid black;
+               margin: 0px;
+               padding: 0px;
+               font-size: 28px;
+               font-weight: 450;
+               text-align: center;
+             }
+            .sub {
+               background-color: white;
+               border: 0px solid black;
+               margin: 0px;
+               padding: 5px;
+               font-size: 20px;
+               font-weight: 490;
+               text-align: left;
+             }
+
+           .graytoc {
+            background-color: LightCyan;
+            color:red;
+            font-weight: 300;
+           }
+
+        </style>
+    </head>
+
+    <body class="homepage" style="">
+
+<!--####################################################-->
+<!-- VVVVVVVVVVVVVVVVV    TOP Panel   VVVVVVVVVVVVVVVVVV-->
+<!--####################################################-->
+    <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+             <a class="navbar-brand" href=""><center><b><font color = "yellow">IntroStatsApps</font> DevPage </b><br> <sub> Version 2.0</sub></center> </a>
+             <!-- Expander button -->
+             <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse"><span class="navbar-toggler-icon"></span> </button>
+
+             <!-- Expanded navigation -->
+             <!--div id="navbar-collapse" class="navbar-collapse collapse">
+
+              <!-- Main navigation -->
+
+             <ul class="nav navbar-nav ml-auto">
+    
+<!--########################################################################-->
+<!--SSSSSSSSSSSSSSSSSSSSSS      SSSSSSSSSSSSSSSSSSSS-->
+<!--########################################################################-->
+                 <li class="navitem active"> <a href="https://github.com/pengdsci/IntroStatsApps/tree/main/Rcode"  target="popup" onclick="window.open('https://github.com/pengdsci/IntroStatsApps/tree/main/Rcode','name','width=900,height=500')" class="nav-link">Source Code </a></li>
+
+                 <li class="navitem active"> <a href="https://www.w3schools.com/html/"  target="popup" onclick="window.open('https://www.w3schools.com/html/','name','width=900,height=500')" class="nav-link">HTML Help </a></li>
+
+                 <li class="navitem active"> <a href="https://shiny.rstudio.com/tutorial/"  target="popup" onclick="window.open('https://shiny.rstudio.com/tutorial/','name','width=900,height=500')" class="nav-link">RShiny Tutorial </a></li>
+
+                 <li class="navitem active"> <a href="https://shiny.rstudio.com/gallery/mathjax.html"  target="popup" onclick="window.open('https://shiny.rstudio.com/gallery/mathjax.html','name','width=900,height=500')" class="nav-link"> MathJax in Shiny </a></li>
+
+                 
+                 <li class="navitem active"> <a href="http://docs.mathjax.org/en/latest/"  target="popup" onclick="window.open('http://docs.mathjax.org/en/latest/','name','width=900,height=500')" class="nav-link"> MathJax Ref </a></li>
+                 
+                  <li class="navitem active"> <a href="https://www.shinyapps.io/admin/#/login"  target="popup" onclick="window.open('https://www.shinyapps.io/admin/#/login','name','width=900,height=500')" class="nav-link"> ShinyApps.io Login </a></li>
+    
+         
+<!--########################################################################-->
+<!--SSSSSSS               Dropdown tag: Shiny Apps              SSSSSSSSSSSS-->
+<!--########################################################################
+
+               <li class="dropdown"><a href="" class="nav-link dropdown-toggle" data-toggle="dropdown"> Stats Apps<b class="caret"></b></a>
+                   <ul class="dropdown-menu">
+                     <li class="navitem active"> <a href="https://wcupeng.shinyapps.io/DescriptiveStats/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/DescriptiveStats/',
+                         'name','width=900,height=500')"  class="dropdown-item">1. Descriptive Statistics</a></li>
+
+                    <li class="navitem active"> <a href="https://wcupeng.shinyapps.io/ZTable/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/ZTable/','name','width=900,height=500')"  class="dropdown-item">2. Standard Normal Table</a></li>
+                       
+                    <li class="navitem active"> <a href="https://wcupeng.shinyapps.io/CLTdemo/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/CLTdemo/','name','width=900,height=500')"  class="dropdown-item">3. Central Limit Theorem Demo</a></li>                       
+              
+                    <li class="navitem active"> <a href="https://wcupeng.shinyapps.io/AppsCLT4Means/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Means/','name','width=900,height=500')"  class="dropdown-item">4. Applications of CLT for Means</a></li>                       
+                    <li class="navitem active"> <a href="https://wcupeng.shinyapps.io/AppsCLT4Prop/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Prop/','name','width=900,height=500')"  class="dropdown-item">5. Applications of CLT for Proportions</a></li>
+                       
+                    <li class="navitem active"> <a href="https://wcu-peng.shinyapps.io/NormalCI4MeanProp/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/NormalCI4MeanProp/','name','width=900,height=500')"  class="dropdown-item">6. Normal CI for Means and Proportion</a></li> 
+                       
+                    <li class="navitem active"> <a href="https://wcu-peng.shinyapps.io/t-Table/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/t-Table/','name','width=900,height=500')"  class="dropdown-item">7. Student t Table</a></li>                     
+                       
+                    <li class="navitem active"> <a href="https://wcu-peng.shinyapps.io/Student-t-CI/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/Student-t-CI/','name','width=900,height=500')"  class="dropdown-item">8. Student t CI for Means</a></li> 
+                         
+                    <li class="navitem active"> <a href="https://wcu-peng.shinyapps.io/oneMean-z-Test/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-z-Test/','name','width=900,height=500')"  class="dropdown-item">9. Normal Test for One Mean</a></li>                     
+                       
+                    <li class="navitem active"> <a href="https://wcu-peng.shinyapps.io/oneMean-ttest/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-ttest/','name','width=900,height=500')"  class="dropdown-item">10. t Test for One Mean</a></li>                      
+                   
+                     </ul>
+               </li>
+                   
+              </li>
+<!--SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS-->
+               </ul>
+         </div>
+      </div>
+ </div>
+
+<!--####################################################-->
+<!-- VVVVVVVVVVVVVVVVV    TOC Panel   VVVVVVVVVVVVVVVVVV-->
+<!--####################################################-->
+<div class="container">
+            <div class="row">
+                <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary" style="top: 76px;">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+         <span class="navbar-toggler-icon"></span>
+        </button>
+    </div>
+
+  <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+          <ul class="nav flex-column">
+              <center><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/shiny_rstudio_rmarkdown2.png"  width="120" height="120"></center>
+            <li class="nav-item" data-level="1"><a href="" class="nav-link active"><center>IntroStatsApps v2.0</center></a><BR>
+               <ul class="nav flex-column">
+                   <div class="a">
+                   <li class="nav-item" data-level="2"><a href="#week01" class="nav-link">1. Descriptive Stats </a></li>
+                   <li class="nav-item" data-level="2"><a href="#week02" class="nav-link">2. Normal Table</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week03" class="nav-link">3. CLT Demo</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week04" class="nav-link">4. CLT Appl: Mean</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week05" class="nav-link">5. CLT Appl: Prop</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week06" class="nav-link">6. Normal C.I. </a> </li>             
+                   <li class="nav-item" data-level="2"><a href="#week07" class="nav-link">7. t Table</a></li>
+				   <li class="nav-item" data-level="2"><a href="#week08" class="nav-link">8. t-C.I.</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week09" class="nav-link">9. One Mean Z-test</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week10" class="nav-link">10. One Mean t-test</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week11" class="nav-link">11. One Prop Z-test</a> </li>
+				   <li class="nav-item" data-level="2"><a href="#week12" class="nav-link">12. Two-sample T-tests</a> </li>               
+                   <li class="nav-item" data-level="2"><a href="#week13" class="nav-link">13. Regression Demo</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week14" class="nav-link">14. Coefficient Correlation and Regression</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week15" class="nav-link">15. Chisquare Goodness of fit</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week16" class="nav-link">16. Review for the Final Exam</a> </li>    
+                     <BR><BR>
+                     <center><a href="mailto:cpeng@wcupa.edu"><font size = 2 color = "red"> Report Bugs To C. Peng </font></a></center>
+                   </div>
+                </ul>
+             </li>
+           </ul>
+
+        </ul>
+    </div>
+</div></div>
+
+
+<!-- VVVVVVVVVVVVVVVVV    Main Body   VVVVVVVVVVVVVVVVVV-->
+
+<div class="col-md-9" role="main">
+
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #01    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<h3 id="week01" class="section"><center>IntroStatsApps #01: Descriptive Statistics</center></h3><hr><left>
+
+    <a href="https://wcupeng.shinyapps.io/DescriptiveStats/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/DescriptiveStats/',
+                         'name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/01-DescriptiveStats.png" width="800" height="480"></a>
+
+</left><hr>
+
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #02    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<h3 id="week02"  class="section">IntroStatsApps #02: Standard Normal Distribution Table</h3> <hr><left>
+
+
+   <a href="https://wcupeng.shinyapps.io/ZTable/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/ZTable/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/02-NormalTable.png" width="800" height="450"></a> 
+
+</left><hr>
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #03    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->  
+<h3 id="week03"  class="section">IntroStatsApps #03: CLT Demonstration</h3>
+<hr><left>
+
+    
+  <a href="https://wcupeng.shinyapps.io/CLTdemo/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/CLTdemo/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/03-CLT-demo.png" width="800" height="500"></a>  
+</left><hr>
+
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #04    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<h3 id="week04"  class="section">IntroStatsApps #04: CLT Application: Sample Means </h3><hr><left>
+    
+ <a href="https://wcupeng.shinyapps.io/AppsCLT4Means/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Means/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/04-ApplCLT-mean.png" width="800" height="500"></a>
+    
+</left><hr>
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #05    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->   
+<h3 id="week05"  class="section">IntroStatsApps #05: CLT Application: Sample Proportions </h3>
+<hr><left>
+   
+    <a href="https://wcupeng.shinyapps.io/AppsCLT4Prop/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Prop/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/05-AppCLT-prop.png" width="800" height="500"></a>
+            
+    
+</left><hr>
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #06    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<h3 id="week06"  class="section">IntroStatsApps #06: Normal Confidence Intervals </h3>
+<hr><left>
+ 
+  <a href="https://wcu-peng.shinyapps.io/NormalCI4MeanProp/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/NormalCI4MeanProp/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/06-Normal-CI.png" width="800" height="560"></a>  
+  
+</left><hr>
+
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #07    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+
+<h3 id="week07"  class="section"> IntroStatsApps #07: t Distribution Table</h3>
+<hr><left>
+
+    <a href="https://wcu-peng.shinyapps.io/t-Table/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/t-Table/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/07-t-Table.png" width="800" height="530"></a>
+    
+</left><hr>
+
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #08    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<h3 id="week08"  class="section">IntroStatsApps #08 : t Confidence Intervals for Population Means</h3>
+<hr><left>
+    
+    <a href="https://wcu-peng.shinyapps.io/Student-t-CI/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/Student-t-CI/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/08-tCI-mean.png" width="800" height="600"></a>
+    
+</left><hr>
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #09    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->    
+<h3 id="week09"  class="section">IntroStatsApps #09: One-mean Normal Test</h3>
+<hr><left>
+   
+    <a href="https://wcu-peng.shinyapps.io/oneMean-z-Test/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-z-Test/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/09-OneMeanZ.png" width="800" height="530"></a>
+
+</left><hr>
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #10    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week10"  class="section">IntroStatsApps #10: One-mean t Test</h3><hr><left>
+    
+    <a href="https://wcu-peng.shinyapps.io/oneMean-ttest/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-ttest/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/10-OneMeanT.png" width="800" height="500"></a>
+    
+</left><hr>
+
+
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #11    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week11"  class="section">IntroStatsApps #11: One-Proportion Z-test</h3><hr><left>
+    
+    <a href="https://chpeng.shinyapps.io/oneProp-z-testR/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/oneProp-z-testR/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/11-OnePropZ.png" width="800" height="500"></a>
+    
+</left><hr>
+
+
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #12    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week12"  class="section">IntroStatsApps #12: Two-sample T-tests</h3><hr><left>
+    
+    <a href="https://chpeng.shinyapps.io/twoSampleTests/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/twoSampleTests/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/12-TwoMeansT.png" width="800" height="640"></a>
+    
+</left><hr>
+    
+    
+
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #13    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week13"  class="section">IntroStatsApps #13: Understanding Regression - A Simulation</h3><hr><left>
+    
+    <a href="https://chpeng.shinyapps.io/LSE-Reg/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/LSE-Reg/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/13-RegSimulation.png" width="800" height="380"></a>
+    
+</left><hr>    
+    
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #14    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week14"  class="section">IntroStatsApps #14: Correlation Coefficient and Least Square Regression</h3><hr><left>
+    
+    <a href="https://chengpeng.shinyapps.io/correlation-reg/"  target="popup" onclick="window.open('https://chengpeng.shinyapps.io/correlation-reg/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/14-CoefReg.png" width="900" height="410"></a>
+    
+</left><hr>    
+    
+    
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #15    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week15"  class="section">IntroStatsApps #15: Chisquare Goodness-of-fit Test</h3><hr><left>
+    
+    <a href="https://chpeng.shinyapps.io/chisq-gof/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/chisq-gof/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/15-ChisqGOF.png" width="900" height="350"></a>
+    
+</left><hr>    
+    
+    
+    
+    
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #16    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week16"  class="section">IntroStatsApps #16: Chisquare Test of Independence</h3><hr><left>
+    
+    <a href="https://chpeng.shinyapps.io/chisq-independence/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/chisq-independence/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/16-ChisqIndep.png" width="900" height="500"></a>
+    
+</left><hr>         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+<!--XXXXXXXXXXXXXXXXXXXXXXXXXXX  FOOTER  XXXXXXXXXXXXXXXXXXXXXXX-->
+</div>
+        <footer class="col-md-12">
+<hr>
+    <p class="text-center">Copyright &copy; 
+        <script>
+            var CurrentYear = new Date().getFullYear()
+            document.write(CurrentYear)
+        </script>
+       C. Peng. Last updated: 
+         <script> 
+            document.write(new Date().toLocaleDateString()); 
+         </script>
+
+ <a href='http://www.freevisitorcounters.com'>.</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=bdd86ca03bf3709e4523bf44ac939417956604f4'></script>
+<script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/832947/t/5"></script>   </p>
+</body>
+</html>
