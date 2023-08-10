@@ -24,7 +24,7 @@
     
         <style>
             div.a {
-              line-height: 90%;
+              line-height: 70%;
             }
 
             .section {
@@ -33,16 +33,16 @@
                margin: 0px;
                padding: 0px;
                font-size: 28px;
-               font-weight: 450;
+               font-weight: 650;
                text-align: center;
              }
             .sub {
                background-color: white;
                border: 0px solid black;
                margin: 0px;
-               padding: 5px;
-               font-size: 20px;
-               font-weight: 490;
+               padding:5px;
+               font-size: 16px;
+               font-weight: 350;
                text-align: left;
              }
 
@@ -59,16 +59,25 @@
 
 <!--####################################################-->
 <!-- VVVVVVVVVVVVVVVVV    TOP Panel   VVVVVVVVVVVVVVVVVV-->
-   <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+   <!--div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
         <ul class="nav navbar-nav ml-auto">
-       <center><b><font color = "gold"> Interactive Statistics Learning Applications (ISLA)</font> </b></center>
+       <center><b><font color = "gold"> Interactive Statistics Learning Applications (ISLA)</font> </b><br>
+           <font color = "gold"><b> Cheng Peng </b></font></center>
+       </ul>
+       </div-->
+        
+   <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+
+   <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+                          <img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/shiny_rstudio_rmarkdown2.png"  width="80" height="80">
+        <ul class="nav navbar-nav ml-auto">
+       <center><b><font size = 2 color = "white"> Interactive Statistics Learning Applications (ISLA), version 1.0 </font> </b><br>
+           <font color = "white"><b> Cheng Peng @ WCU</b></font></center>
        </ul>
        </div>
-        
-    <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-
         <div class="container">
-             <a class="navbar-brand" href=""><center><b><font color = "yellow"> ISLA</font> DevPage </b><br> <sub> Version 1.0</sub></center> </a>
+            <!--img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/shiny_rstudio_rmarkdown2.png"  width="80" height="80">
+             <a class="navbar-brand" href=""><center><b><font color = "yellow"> ISLA</font> DevPage </b><br> <sub> Version 1.0</sub></center> </a-->
              <!-- Expander button -->
              <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse"><span class="navbar-toggler-icon"></span> </button>
              <!-- Expanded navigation -->
@@ -81,7 +90,7 @@
 <!--########################################################################-->
 <!--SSSSSSSSSSSSSSSSSSSSSS      SSSSSSSSSSSSSSSSSSSS-->
 <!--########################################################################-->
-                 <li class="navitem active"> <a href="https://github.com/pengdsci/IntroStatsApps/tree/main/Rcode"  target="popup" onclick="window.open('https://github.com/pengdsci/IntroStatsApps/tree/main/Rcode','name','width=900,height=500')" class="nav-link">Source Code </a></li>
+                 <li class="navitem active"> <a href="https://github.com/pengdsci/ISLA/tree/main/Rcode"  target="popup" onclick="window.open('https://github.com/pengdsci/ISLA/tree/main/Rcode','name','width=900,height=500')" class="nav-link">Source Code </a></li>
 
                  <li class="navitem active"> <a href="https://www.w3schools.com/html/"  target="popup" onclick="window.open('https://www.w3schools.com/html/','name','width=900,height=500')" class="nav-link">HTML Help </a></li>
 
@@ -94,9 +103,11 @@
                  
                  <li class="navitem active"> <a href="http://docs.mathjax.org/en/latest/"  target="popup" onclick="window.open('http://docs.mathjax.org/en/latest/','name','width=900,height=500')" class="nav-link"> MathJax Ref </a></li>
                  
-                  <li class="navitem active"> <a href="https://www.shinyapps.io/admin/#/login"  target="popup" onclick="window.open('https://www.shinyapps.io/admin/#/login','name','width=900,height=500')" class="nav-link"> ShinyApps.io Login </a></li>
+                  <!--li class="navitem active"> <a href="https://www.shinyapps.io/admin/#/login"  target="popup" onclick="window.open('https://www.shinyapps.io/admin/#/login','name','width=900,height=500')" class="nav-link"> ShinyApps.io Login </a></li-->
                </ul>
          </div>
+        
+        
       </div>
 <!--####################################################-->
 <!-- VVVVVVVVVVVVVVVVV    TOC Panel   VVVVVVVVVVVVVVVVVV-->
@@ -112,28 +123,28 @@
 
   <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
           <ul class="nav flex-column">
-              <center><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/shiny_rstudio_rmarkdown2.png"  width="120" height="120"></center>
-            <li class="nav-item" data-level="1"><a href="" class="nav-link active"><center>ISLA v1.0</center></a><BR>
+              <!--center><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/shiny_rstudio_rmarkdown2.png"  width="100" height="100"></center-->
+            <!--li class="nav-item" data-level="1"><a href="" class="nav-link active"><center>ISLA v1.0</center></a-->
                <ul class="nav flex-column">
                    <div class="a">
                    <li class="nav-item" data-level="2"><a href="#week01" class="nav-link">1. Descriptive Stats </a></li>
-                   <li class="nav-item" data-level="2"><a href="#week02" class="nav-link">2. Normal Table</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week02" class="nav-link">2. How to Use Z-Table</a></li>
                    <li class="nav-item" data-level="2"><a href="#week03" class="nav-link">3. Normal Questions</a></li>    
-                   <li class="nav-item" data-level="2"><a href="#week04" class="nav-link">4. CLT Demo</a></li>
-                   <li class="nav-item" data-level="2"><a href="#week05" class="nav-link">5. CLT Appl: Mean</a></li>
-                   <li class="nav-item" data-level="2"><a href="#week06" class="nav-link">6. CLT Appl: Prop</a> </li>
-                   <li class="nav-item" data-level="2"><a href="#week07" class="nav-link">7. Normal C.I. </a> </li>             
-                   <li class="nav-item" data-level="2"><a href="#week08" class="nav-link">8. t Table</a></li>
-				   <li class="nav-item" data-level="2"><a href="#week09" class="nav-link">9. t-C.I.</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week04" class="nav-link">4. CLT Demonstration</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week05" class="nav-link">5. CLT Application: Mean</a></li>
+                   <li class="nav-item" data-level="2"><a href="#week06" class="nav-link">6. CLT Application: Prop</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week07" class="nav-link">7. Z-Confidence Interval </a> </li>             
+                   <li class="nav-item" data-level="2"><a href="#week08" class="nav-link">8. How to Use t-Table</a></li>
+				   <li class="nav-item" data-level="2"><a href="#week09" class="nav-link">9. t-Confidence Interval</a></li>
                    <li class="nav-item" data-level="2"><a href="#week10" class="nav-link">10. One Mean Z-test</a></li>
                    <li class="nav-item" data-level="2"><a href="#week11" class="nav-link">11. One Mean t-test</a> </li>
                    <li class="nav-item" data-level="2"><a href="#week12" class="nav-link">12. One Prop Z-test</a> </li>
 				   <li class="nav-item" data-level="2"><a href="#week13" class="nav-link">13. Two-sample T-tests</a> </li>               
                    <li class="nav-item" data-level="2"><a href="#week14" class="nav-link">14. Regression Demo</a> </li>
-                   <li class="nav-item" data-level="2"><a href="#week15" class="nav-link">15. Coefficient Correlation and Regression</a> </li>
-                   <li class="nav-item" data-level="2"><a href="#week16" class="nav-link">16. Chisquare Goodness of fit</a> </li>
-                   <li class="nav-item" data-level="2"><a href="#week17" class="nav-link">17. Chisquare Test of Independence</a> </li>    
-                     <BR><BR>
+                   <li class="nav-item" data-level="2"><a href="#week15" class="nav-link">15. Correlation and LS Regression</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week16" class="nav-link">16. Goodness of fit Test</a> </li>
+                   <li class="nav-item" data-level="2"><a href="#week17" class="nav-link">17. Test of Independence</a> </li>    
+                     <BR>
                      <center><a href="mailto:cpeng@wcupa.edu"><font size = 2 color = "red"> Report Bugs To C. Peng </font></a></center>
                    </div>
                 </ul>
@@ -150,45 +161,45 @@
 <div class="col-md-9" role="main">
 
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #01    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #01    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<h3 id="week01" class="section"><center>IntroStatsApps #01: Descriptive Statistics</center></h3><hr><left>
+<h3 id="week01" class="section"><center>ISLA #01: Descriptive Statistics</center></h3><hr><left>
 
     <a href="https://wcupeng.shinyapps.io/DescriptiveStats/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/DescriptiveStats/',
-                         'name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/01-DescriptiveStats.png" width="800" height="480"></a>
+                         'name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/01-DescriptiveStats.png" width="800" height="400"></a>
 
 </left><hr>
 
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #02    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #02    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<h3 id="week02"  class="section">IntroStatsApps #02: Standard Normal Distribution Table</h3> <hr><left>
+<h3 id="week02"  class="section">ISLA #02: Standard Normal Distribution Table</h3> <hr><left>
 
 
-   <a href="https://wcupeng.shinyapps.io/ZTable/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/ZTable/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/02-NormalTable.png" width="800" height="450"></a> 
+   <a href="https://wcupeng.shinyapps.io/ZTable/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/ZTable/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/02-NormalTable.png" width="800" height="400"></a> 
 
 </left><hr>
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #03    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #03    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->  
-<h3 id="week03"  class="section">IntroStatsApps #03: Two-questions of Normal Distribution</h3>
+<h3 id="week03"  class="section">ISLA #03: Two-questions of Normal Distribution</h3>
 <hr><left>
 
     
-  <a href="https://chengpeng.shinyapps.io/TwoQuestionsofNormalDist/"  target="popup" onclick="window.open('https://chengpeng.shinyapps.io/TwoQuestionsofNormalDist/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/03-2normalQuestions.png" width="800" height="500"></a>  
+  <a href="https://chengpeng.shinyapps.io/TwoQuestionsofNormalDist/"  target="popup" onclick="window.open('https://chengpeng.shinyapps.io/TwoQuestionsofNormalDist/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/03-2normalQuestions.png" width="800" height="470"></a>  
 
     
 </left><hr>
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #03    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #04    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->  
-<h3 id="week04"  class="section">IntroStatsApps #04: CLT Demonstration</h3>
+<h3 id="week04"  class="section">ISLA #04: CLT Demonstration</h3>
 <hr><left>
 
     
-  <a href="https://wcupeng.shinyapps.io/CLTdemo/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/CLTdemo/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/03-CLT-demo.png" width="800" height="500"></a>  
+  <a href="https://wcupeng.shinyapps.io/CLTdemo/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/CLTdemo/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/03-CLT-demo.png" width="800" height="410"></a>  
 
     
 
@@ -196,90 +207,90 @@
     </left><hr>
 
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #04    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #05    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<h3 id="week05"  class="section">IntroStatsApps #05: CLT Application: Sample Means </h3><hr><left>
+<h3 id="week05"  class="section">ISLA #05: CLT Application: Sample Means </h3><hr><left>
     
- <a href="https://wcupeng.shinyapps.io/AppsCLT4Means/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Means/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/04-ApplCLT-mean.png" width="800" height="500"></a>
+ <a href="https://wcupeng.shinyapps.io/AppsCLT4Means/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Means/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/04-ApplCLT-mean.png" width="800" height="450"></a>
     
 </left><hr>
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #05    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #05    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->   
-<h3 id="week06"  class="section">IntroStatsApps #06: CLT Application: Sample Proportions </h3>
+<h3 id="week06"  class="section">ISLA #06: CLT Application: Sample Proportions </h3>
 <hr><left>
    
-    <a href="https://wcupeng.shinyapps.io/AppsCLT4Prop/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Prop/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/05-AppCLT-prop.png" width="800" height="500"></a>
+    <a href="https://wcupeng.shinyapps.io/AppsCLT4Prop/"  target="popup" onclick="window.open('https://wcupeng.shinyapps.io/AppsCLT4Prop/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/05-AppCLT-prop.png" width="1000" height="400"></a>
             
     
 </left><hr>
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #06    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #06    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<h3 id="week07"  class="section">IntroStatsApps #07: Normal Confidence Intervals </h3>
+<h3 id="week07"  class="section">ISLA #07: Normal Confidence Intervals </h3>
 <hr><left>
  
-  <a href="https://wcu-peng.shinyapps.io/NormalCI4MeanProp/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/NormalCI4MeanProp/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/06-Normal-CI.png" width="800" height="560"></a>  
+  <a href="https://wcu-peng.shinyapps.io/NormalCI4MeanProp/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/NormalCI4MeanProp/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/06-Normal-CI.png" width="800" height="480"></a>  
   
 </left><hr>
 
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #07    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #07    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
 
-<h3 id="week08"  class="section"> IntroStatsApps #08: t Distribution Table</h3>
+<h3 id="week08"  class="section"> ISLA #08: t Distribution Table</h3>
 <hr><left>
 
-    <a href="https://wcu-peng.shinyapps.io/t-Table/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/t-Table/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/07-t-Table.png" width="800" height="530"></a>
+    <a href="https://wcu-peng.shinyapps.io/t-Table/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/t-Table/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/07-t-Table.png" width="900" height="480"></a>
     
 </left><hr>
 
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #08    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #09    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<h3 id="week09"  class="section">IntroStatsApps #09 : t Confidence Intervals for Population Means</h3>
+<h3 id="week09"  class="section">ISLA #09 : t Confidence Intervals for Population Means</h3>
 <hr><left>
     
-    <a href="https://wcu-peng.shinyapps.io/Student-t-CI/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/Student-t-CI/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/08-tCI-mean.png" width="800" height="600"></a>
+    <a href="https://wcu-peng.shinyapps.io/Student-t-CI/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/Student-t-CI/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/08-tCI-mean.png" width="800" height="500"></a>
     
 </left><hr>
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #09    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #09    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->    
-<h3 id="week10"  class="section">IntroStatsApps #10: One-mean Normal Test</h3>
+<h3 id="week10"  class="section">ISLA #10: One-mean Normal Test</h3>
 <hr><left>
    
-    <a href="https://wcu-peng.shinyapps.io/oneMean-z-Test/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-z-Test/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/09-OneMeanZ.png" width="800" height="530"></a>
+    <a href="https://wcu-peng.shinyapps.io/oneMean-z-Test/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-z-Test/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/09-OneMeanZ.png" width="800" height="480"></a>
 
 </left><hr>
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #10    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #10    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week11"  class="section">IntroStatsApps #11: One-mean t Test</h3><hr><left>
+<h3 id="week11"  class="section">ISLA #11: One-mean t Test</h3><hr><left>
     
-    <a href="https://wcu-peng.shinyapps.io/oneMean-ttest/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-ttest/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/IntroStatsApps/main/image/10-OneMeanT.png" width="800" height="500"></a>
-    
-</left><hr>
-
-
-<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #11    VVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week121"  class="section">IntroStatsApps #12: One-Proportion Z-test</h3><hr><left>
-    
-    <a href="https://chpeng.shinyapps.io/oneProp-z-testR/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/oneProp-z-testR/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/11-OnePropZ.png" width="800" height="500"></a>
+    <a href="https://wcu-peng.shinyapps.io/oneMean-ttest/"  target="popup" onclick="window.open('https://wcu-peng.shinyapps.io/oneMean-ttest/','name','width=900,height=500')"  class="dropdown-item"><img src="https://raw.githubusercontent.com/pengdsci/ISLA/main/image/10-OneMeanT.png" width="800" height="460"></a>
     
 </left><hr>
 
 
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #12    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
+<h3 id="week121"  class="section">ISLA #12: One-Proportion Z-test</h3><hr><left>
+    
+    <a href="https://chpeng.shinyapps.io/oneProp-z-testR/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/oneProp-z-testR/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/ISLA/raw/main/image/11-OnePropZ.png" width="800" height="450"></a>
+    
+</left><hr>
+
+
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #12    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #12    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week13"  class="section">IntroStatsApps #13: Two-sample T-tests</h3><hr><left>
+<h3 id="week13"  class="section">ISLA #13: Two-sample T-tests</h3><hr><left>
     
-    <a href="https://chpeng.shinyapps.io/twoSampleTests/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/twoSampleTests/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/12-TwoMeansT.png" width="800" height="640"></a>
+    <a href="https://chpeng.shinyapps.io/twoSampleTests/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/twoSampleTests/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/ISLA/raw/main/image/12-TwoMeansT.png" width="800" height="540"></a>
     
 </left><hr>
     
@@ -287,46 +298,46 @@
 
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #13    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #13    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week14"  class="section">IntroStatsApps #14: Understanding Regression - A Simulation</h3><hr><left>
+<h3 id="week14"  class="section">ISLA #14: Understanding Regression - A Simulation</h3><hr><left>
     
-    <a href="https://chpeng.shinyapps.io/LSE-Reg/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/LSE-Reg/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/13-RegSimulation.png" width="800" height="380"></a>
+    <a href="https://chpeng.shinyapps.io/LSE-Reg/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/LSE-Reg/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/ISLA/raw/main/image/13-RegSimulation.png" width="1000" height="330"></a>
     
 </left><hr>    
     
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #14    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #14    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week15"  class="section">IntroStatsApps #15: Correlation Coefficient and Least Square Regression</h3><hr><left>
+<h3 id="week15"  class="section">ISLA #15: Correlation Coefficient and Least Square Regression</h3><hr><left>
     
-    <a href="https://chengpeng.shinyapps.io/correlation-reg/"  target="popup" onclick="window.open('https://chengpeng.shinyapps.io/correlation-reg/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/14-CoefReg.png" width="900" height="410"></a>
+    <a href="https://chengpeng.shinyapps.io/correlation-reg/"  target="popup" onclick="window.open('https://chengpeng.shinyapps.io/correlation-reg/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/ISLA/raw/main/image/14-CoefReg.png" width="900" height="350"></a>
     
 </left><hr>    
     
     
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #15    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #15    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week16"  class="section">IntroStatsApps #16: Chisquare Goodness-of-fit Test</h3><hr><left>
+<h3 id="week16"  class="section">ISLA #16: Chisquare Goodness-of-fit Test</h3><hr><left>
     
-    <a href="https://chpeng.shinyapps.io/chisq-gof/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/chisq-gof/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/15-ChisqGOF.png" width="900" height="350"></a>
+    <a href="https://chpeng.shinyapps.io/chisq-gof/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/chisq-gof/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/ISLA/raw/main/image/15-ChisqGOF.png" width="900" height="300"></a>
     
-</left><hr>    
+</left> <hr>  
     
     
     
     
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV-->
-<!-- VVVVVVVVVVVVVVVVV     IntroStatsApps #16    VVVVVVVVVVVVVVVVVV-->
+<!-- VVVVVVVVVVVVVVVVV     ISLA #16    VVVVVVVVVVVVVVVVVV-->
 <!-- VVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVVV--> 
-<h3 id="week17"  class="section">IntroStatsApps #17: Chisquare Test of Independence</h3><hr><left>
+<h3 id="week17"  class="section">ISLA #17: Chisquare Test of Independence</h3><hr><left>
     
-    <a href="https://chpeng.shinyapps.io/chisq-independence/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/chisq-independence/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/IntroStatsApps/raw/main/image/16-ChisqIndep.png" width="900" height="500"></a>
+    <a href="https://chpeng.shinyapps.io/chisq-independence/"  target="popup" onclick="window.open('https://chpeng.shinyapps.io/chisq-independence/','name','width=900,height=500')"  class="dropdown-item"><img src="https://github.com/pengdsci/ISLA/raw/main/image/16-ChisqIndep.png" width="900" height="400"></a>
     
-</left><hr>         
+</left>        
     
     
     
