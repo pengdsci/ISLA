@@ -2,7 +2,7 @@ html {
     /* csslint ignore:start */
     /* The nav header is 3.5rem high, plus 20px for the margin-top of the
        main container. */
-    scroll-padding-top: calc(3.5rem + 20px);
+    /*scroll-padding-top: calc(3.5rem + 20px);*/
     /* csslint ignore:end */
 }
 
@@ -11,8 +11,8 @@ html {
 body::before {
     content: ' ';
     position: fixed;
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     top: 0;
     left: 0;
     background-color: #f8f8f8;
@@ -123,12 +123,16 @@ footer {
     margin-top: 60px;
 }
 
+
+
+
 /*
  * Side navigation
  *
  * Scrollspy and affixed enhanced navigation to highlight sections and secondary
  * sections of docs content.
  */
+
 
 .bs-sidebar.affix { /* csslint allow: adjoining-classes */
     /* csslint ignore:start */
@@ -137,7 +141,7 @@ footer {
     /* csslint ignore:end */
     /* The nav header is 3.5rem high, plus 20px for the margin-top of the
        main container. */
-    top: calc(3.5rem + 20px);
+    /*top: calc(3.5rem + 20px);*/
 }
 
 .bs-sidebar.card { /* csslint allow: adjoining-classes */
@@ -165,8 +169,8 @@ footer {
 
 /* First level of nav */
 .bs-sidebar > .navbar-collapse > .nav {
-    padding-top:    10px;
-    padding-bottom: 10px;
+    padding-top:    1px;
+    padding-bottom: 1px;
     border-radius: 5px;
     width: 100%;
 }
@@ -174,7 +178,7 @@ footer {
 /* All levels of nav */
 .bs-sidebar .nav > li > a {
     display: block;
-    padding: 5px 20px;
+    padding: 1px 1px;
     z-index: 1;
 }
 .bs-sidebar .nav > li > a:hover,
@@ -204,7 +208,7 @@ footer {
 
 .headerlink {
     font-family: FontAwesome;
-    font-size: 14px;
+    font-size: 12px;
     display: none;
     padding-left: .5em;
 }
